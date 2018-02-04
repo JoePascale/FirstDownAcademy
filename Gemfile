@@ -13,6 +13,10 @@ group :development do
   gem 'sqlite3'
 end
 
+#bootswatch
+gem 'bootswatch-rails'
+#bootstrap-sass gem
+gem 'bootstrap-sass', '~> 3.3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
