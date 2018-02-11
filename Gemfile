@@ -13,6 +13,7 @@ group :development do
   gem 'sqlite3'
 end
 
+gem 'figaro'
 #bootswatch
 gem 'bootswatch-rails'
 #bootstrap-sass gem
@@ -36,7 +37,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 # add Omniauth authentication for users to log in with Facebook profiles
 gem 'omniauth'
-gem 'omniauth-facebook', '1.4.0'
+gem 'omniauth-facebook', '1.4.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
